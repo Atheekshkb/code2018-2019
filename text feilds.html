@@ -1,0 +1,44 @@
+<title>www.jedbox.com</title>
+<header class="page-header">
+    <h1> BMI Calculator - by Jed </h1>
+</header>
+
+<main>
+    <p> I am putting a project together that helps kids keep their BMI's in check </p>
+    <p>   -- Based on their PE activities and available food at the cafetria in schools I am trying to find if there are any co-relation to BMI values to these factors </p>
+<style>
+body { 
+	background-color:  #ab8797
+}
+</style>
+
+    <form>
+       <fieldset>
+          <legend>Enter your details</legend>
+          <p>
+            <label for="weight">Weight : </label>
+            <input id="user_weight" name="user[weight]" size="30" type="text" />
+            <label>Units</label>
+            <select id = "myList">
+               <option value = "1">Pounds</option>
+               <option value = "2">Kgs</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="height">Height : </label>
+            <input id="user_height" name="user[height]" size="30" type="text" /> 
+               <label>Units</label>
+               <select id = "myList">
+               <option value = "1">centimeters</option>
+               <option value = "2">inches</option>
+	       <option value = "3">feet</option>
+            </select>
+          </p>
+
+       </fieldset>
+    <button>Submit</button>
+    <button>Cancel</button>
+    </form>
+
+</main>
